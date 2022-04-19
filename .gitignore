@@ -1,1 +1,9 @@
 __pycache__/*
+pubmed/*
+ADR_papers/*
+input/CSV/*
+input/download_tweets/*
+input/extended_data/*
+input/Text/*
+input/Variant_list/*
+.idea/*
