@@ -8,9 +8,15 @@ import lxml.html as lh
 from lxml.html import fromstring
 import json
 
+dictionary = {}
+with open("input/key.txt") as f:
+    for line in f:
+       (key, val) = line.split(" ")
+       dictionary[key] = val.strip()
+
 uri="https://utslogin.nlm.nih.gov"
 auth_endpoint = "/cas/v1/api-key"
-apikey='9d865463-19f3-46d1-99c1-8139d4a38f83'
+apikey=dictionary['apikey']
 service="http://umlsks.nlm.nih.gov"
 def gettgt():
  params = {'apikey': apikey}

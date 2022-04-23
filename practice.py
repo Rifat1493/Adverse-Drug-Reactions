@@ -4,6 +4,10 @@ Created on Sat Feb 17 13:56:46 2018
 
 @author: Rifat
 """
+
+
+
+
 import pandas as pd
 df = pd.read_csv('Variant_list//DrugList_variants.csv')
 

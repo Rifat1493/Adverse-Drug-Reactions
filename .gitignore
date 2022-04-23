@@ -6,4 +6,5 @@ input/download_tweets/*
 input/extended_data/*
 input/Text/*
 input/Variant_list/*
+input/key.txt
 .idea/*
